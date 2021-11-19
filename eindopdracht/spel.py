@@ -11,7 +11,7 @@ high_score = 0
 
 # Set up the screen
 wn = turtle.Screen()
-wn.title("Snake Game by @TokyoEdTech")
+wn.title("Snake Game by P$")
 wn.bgcolor("black")
 wn.setup(width=600, height=600)
 wn.tracer(0) # Turns off the screen updates
@@ -34,6 +34,8 @@ food.penup()
 food.goto(0,100)
 
 segments = []
+
+
 
 # Pen
 pen = turtle.Turtle()
@@ -132,7 +134,7 @@ while True:
         delay -= 0.001
 
         # Increase the score
-        score += 10
+        score += 50
 
         if score > high_score:
             high_score = score
