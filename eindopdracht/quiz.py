@@ -7,7 +7,7 @@ if answer.lower()=='yes':
     answer=input('Question 1: Wat is je lievelingscodetaal?')
     if answer.lower()=='python':
         score += 1
-        print('correct')
+        print('correct') 
     else:
         print('Wrong Answer :(')
  
