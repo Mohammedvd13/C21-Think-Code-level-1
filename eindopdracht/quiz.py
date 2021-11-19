@@ -19,14 +19,14 @@ if answer.lower()=='yes':
     else:
         print('Wrong Answer :(')
  
-    answer=input('Question 3: Vind je het leuk om te coderen?>')
+    answer=input('Question 3: Vind je het leuk om te coderen?')
     if answer.lower()=='':
         score += 1
         print('correct')
     else:
         print('Wrong Answer :(')
  
-print('BEdankt voor je tijd om me quiz te spelen...',score,"questions correctly!")
+print('Bedankt voor je tijd om me quiz te spelen',score,"questions correctly!")
 mark=(score/total_questions)*100
 print('Marks obtained:',mark)
 print('BYE!')
